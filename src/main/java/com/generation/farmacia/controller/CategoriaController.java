@@ -24,7 +24,7 @@ import com.generation.farmacia.repository.CategoriaRepository;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping("/categoria")
+@RequestMapping("/categorias")
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class CategoriaController {
 	
@@ -74,5 +74,4 @@ public class CategoriaController {
 	        
 	        categoriaRepository.deleteById(id);              
 	    }
-
 }
