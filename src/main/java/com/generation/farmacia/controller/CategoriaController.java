@@ -28,7 +28,7 @@ import jakarta.validation.Valid;
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class CategoriaController {
 	
-@Autowired
+	@Autowired
 	    private CategoriaRepository categoriaRepository;
 	    
 	    @GetMapping
